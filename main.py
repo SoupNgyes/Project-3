@@ -11,11 +11,11 @@ bob = turtle.Turtle()
 #length = input("Give me a length: ")
 
 def star():
-  print("star")
+    print("star")
   def triangle():
-  print("triangle")
+    print("triangle")
   def circle():
-  print("circle")
+    print("circle")
 
 
 shape = input("Give me a shape: ")
