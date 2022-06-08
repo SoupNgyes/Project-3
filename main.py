@@ -1,12 +1,35 @@
-play = True
+import turtle
 
-while play == True:
-  bob = int(input("Gurunyuu: "))
-  if bob > 0:
-      print("This number is positive")
-  elif bob < 0:
-    print("this number is negative")
-  elif bob == 0: 
-    print("this number is zero")
+turtle.bgcolor("lightgreen")
+turtle.setup (600, 600)
+turtle.shape ("turtle")
 
+screen = turtle.Screen()
+bob = turtle.Turtle()
+
+#color = input("Give me a color: ")
+#length = input("Give me a length: ")
+
+def star():
+  print("star")
+def triangle():
+  print("triangle")
+def circle():
+  print("circle")
+def square():
+  print("square")
+
+shape = input("Give me a shape: ")
+if shape == "star":
+  star()
+    
   
+elif shape == "triangle":
+  triangle()
+
+elif shape == "circle":
+  circle()
+
+elif shape == "square":
+    square()
+
