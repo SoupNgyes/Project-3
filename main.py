@@ -12,24 +12,17 @@ bob = turtle.Turtle()
 
 def star():
   print("star")
-def triangle():
+  def triangle():
   print("triangle")
-def circle():
+  def circle():
   print("circle")
-def square():
-  print("square")
+
 
 shape = input("Give me a shape: ")
+
 if shape == "star":
   star()
-    
-  
 elif shape == "triangle":
   triangle()
-
 elif shape == "circle":
   circle()
-
-elif shape == "square":
-    square()
-
