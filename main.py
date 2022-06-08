@@ -59,6 +59,17 @@ def square(color,length):
   kaia.end_fill()
 
 
+def danganronpa(color,length):
+  kaia.fillcolor(color)
+  kaia.begin_fill()
+  
+  corners = 0
+  while corners < 9:
+    kaia.forward(length)
+    kaia.right(11037)
+    corners +=1
+  
+  kaia.end_fill()
 
 
 shape = input("Give me a shape: ")
@@ -73,3 +84,6 @@ elif shape == "circle":
   circle(color, length)
 elif shape == "square":
   square(color, length)
+
+elif shape == "danganronpa":
+  danganronpa(color,length)
