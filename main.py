@@ -47,6 +47,19 @@ def circle(color, length):
   
 
 def square(color,length):
+  kaia.fillcolor(color)
+  kaia.begin_fill()
+  
+  corners = 0
+  while corners < 4:
+    kaia.forward(length)
+    kaia.right(90)
+    corners +=1
+  
+  kaia.end_fill()
+
+
+
 
 shape = input("Give me a shape: ")
 color = input("Give me a color: ")
